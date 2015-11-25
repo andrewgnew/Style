@@ -1,0 +1,3319 @@
+p { color: #fff;
+font-family:'Source Sans Pro';
+width: auto;
+}
+
+
+
+
+/* Mobile devices (desktops, 0-480px and up) */
+@media (max-width: 480px)  {
+
+body {
+background-color: #fff;
+}
+
+#page {
+background-color: #fff;
+}
+
+#main, #page, #container {
+background: none;
+}
+
+.img-responsive {
+display: none;
+}
+
+.mobilebanner {
+display: block;
+}
+
+.container {
+margin-left: 15px;
+}
+
+
+.herobanner { 
+display: block;
+width: 375px;
+height: 350px;
+position: relative;
+margin-top: -20px;
+position: relative;
+left: -45px;
+}
+
+
+
+.textcontainer {
+display: block;
+width: 250px;
+height: 270px;
+position: relative;
+z-index: 5;
+left: 6%;
+top: -320px;
+}
+
+.heading {
+font-family:"Soho Gothic W01 Bold";
+font-weight:normal;
+font-size: 1.9em;
+color: #fff;
+position: relative;
+top: 20px;
+left: 0px;
+text-transform: uppercase;
+letter-spacing: -1px;
+text-shadow: 2px 2px 2px #484747;
+}
+
+.subheading {
+
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.1em;
+font-weight: 400;
+position: relative;
+top: 10px;
+left: 0px;
+background: none;
+text-shadow: 2px 2px 2px #484747;
+ 
+}
+
+.headline {
+font-family:"Soho Gothic W01 Medium";
+font-weight:normal;
+font-size: 1.2em;
+color: #fff;
+position: relative;
+top: -20px;
+left: 0px;
+text-transform: uppercase;
+width: 150px;
+text-shadow: 1px 1px 1px #484747;
+
+}
+
+
+#hashtag {
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.1em;
+font-weight: 400;
+position: relative;
+top: -10px;
+left: 0px;
+
+}
+
+
+.introtext {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.2em;
+text-align: center;
+}
+
+
+
+.cltext {
+position: relative;
+width: 80%;
+left: 11%;
+height: auto;
+margin-bottom: 25px;
+margin-top: 15px;
+padding-bottom: 15px;
+color: #fff;
+}
+
+
+.glassestext {
+text-align:center;
+height: auto;
+width: 375px;
+background: #fff;
+margin-left: -15px;
+margin-top: -35px;
+background: #000;
+
+}
+
+
+
+.left-image {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/animal-prints-model-long.jpg");
+margin-bottom: 10px;
+float: left;
+margin-top: -25px;
+height: auto;
+margin-left: -15px;
+background-size: 375px 670px; 
+-ms-background-size: 375px 670px;
+-moz-background-size: 375px 670px;
+-webkit-background-size: 375px 670px;
+height:670px;
+width: 375px;
+}
+
+
+.left-image-second {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/alex-perry.jpg");
+margin-bottom: 10px;
+float: left;
+margin-left: -15px;
+background-repeat: no-repeat;
+background-size: 370px 601px; 
+-ms-background-size: 370px 601px;
+-moz-background-size: 370px 601px;
+-webkit-background-size: 370px 601px;
+margin-top: -20px;
+height:601px;
+width: 370px;
+}
+
+
+.left-image-third {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/_blue-hues-bg-updated.jpg");
+margin-bottom: 10px;
+float: left;
+margin-top: -25px;
+height: auto;
+margin-left: -15px;
+background-size: 375px 670px; 
+-ms-background-size: 375px 670px;
+-moz-background-size: 375px 670px;
+-webkit-background-size: 375px 670px;
+height:670px;
+width: 375px;
+}
+
+.left-image-fourth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-bg.jpg");
+margin-bottom: 10px;
+float: left;
+margin-top: -25px;
+height: auto;
+margin-left: -15px;
+background-size: 375px 670px; 
+-ms-background-size: 375px 670px;
+-moz-background-size: 375px 670px;
+-webkit-background-size: 375px 670px;
+height:670px;
+width: 375px;
+}
+
+.left-image-fifth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-chic-bg-fade.jpg");
+margin-bottom: 10px;
+float: left;
+margin-top: -25px;
+height: auto;
+margin-left: -15px;
+background-size: 375px 670px; 
+-ms-background-size: 375px 670px;
+-moz-background-size: 375px 670px;
+-webkit-background-size: 375px 670px;
+height:670px;
+width: 375px;
+}
+
+
+
+.left-image-sixth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/clasic-black-collette-bg-saturated.jpg");
+margin-bottom: 10px;
+float: left;
+margin-top: -25px;
+height: auto;
+margin-left: -15px;
+background-size: 375px 670px; 
+-ms-background-size: 375px 670px;
+-moz-background-size: 375px 670px;
+-webkit-background-size: 375px 670px;
+height:670px;
+width: 375px;
+}
+
+
+.left-image-seventh {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/winter-khaki-bg-long.jpg");
+margin-bottom: 10px;
+float: left;
+margin-top: -25px;
+height: auto;
+margin-left: -15px;
+background-size: 375px 670px; 
+-ms-background-size: 375px 670px;
+-moz-background-size: 375px 670px;
+-webkit-background-size: 375px 670px;
+height:670px;
+width: 375px;
+}
+
+
+.left-image-eightth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-hero.jpg");
+margin-bottom: 10px;
+float: left;
+margin-top: -25px;
+height: auto;
+margin-left: -15px;
+background-size: 375px 670px; 
+-ms-background-size: 375px 670px;
+-moz-background-size: 375px 670px;
+-webkit-background-size: 375px 670px;
+height:670px;
+width: 375px;
+}
+
+
+.left-image-ninth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/kellie-hush-bg-updated.jpg");
+margin-bottom: 10px;
+float: left;
+margin-top: -25px;
+height: auto;
+margin-left: -15px;
+background-size: 375px 670px; 
+-ms-background-size: 375px 670px;
+-moz-background-size: 375px 670px;
+-webkit-background-size: 375px 670px;
+height:670px;
+width: 375px;
+}
+
+
+
+
+.trendtextbox {
+position: relative;
+width: 300px;
+height: auto;
+left: 20px;
+top: -10px;
+
+}
+
+.trendheading {
+font-family:"Soho Gothic W01 Medium";
+font-size: 1.8em;
+color: #fff;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.trendsubheading {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.1em;
+position: relative;
+top: 0px;
+left: 0;
+}
+
+
+.imageframed {
+display: block;
+position: relative;
+top: 0px;
+left: 0px;
+width: 150px;
+height: 215px;
+-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+    z-index: 3;
+    float: left;
+}
+
+
+#videoframe, #videoframesecond, #videoframethird, #videoframefourth, #videoframefifth {
+display: block;
+position: relative;
+top: 145px;
+left: 35px;
+float: left;
+width: 135px;
+height: 208px;
+z-index: 5;
+}
+
+
+.frametextbox {
+width: 280px;
+height: 90px;
+background: #000;
+position: relative;
+top: 430px;
+left: 200px;
+color: #fff;
+font-size: 1em;
+display: none;
+}
+
+
+
+.frametextbox p {
+position: absolute;
+color: #fff;
+font-size: 0.8em;
+font-family:'Source Sans Pro';
+padding: 10px 0px 0px 0px;
+display: none;
+}
+
+
+.mainframebox {
+
+width: 370px;
+height: auto;
+display: block;
+position: relative;
+left: -10px;
+top: 0;
+background: none; 
+}
+
+.mainframeboxtwo {
+
+width: 370px;
+height: 350px;
+display: block;
+position: relative;
+left: -10px;
+top: 0;
+background: none;
+
+}
+
+.mainframeboxthree {
+
+width: 370px;
+height: auto;
+display: block;
+position: relative;
+left: -10px;
+top: 0;
+background: none;
+
+}
+
+
+.mainframeboxfour {
+
+width: 370px;
+height: 350px;
+display: block;
+position: relative;
+left: -10px;
+top: 0;
+background: none; 
+
+}
+
+
+.mainframeboxfive {
+
+width: 370px;
+height: auto;
+display: block;
+position: relative;
+left: -10px;
+top: 0;
+background: none; 
+}
+
+
+.mainframeboxsix {
+
+width: 370px;
+height: auto;
+display: block;
+position: relative;
+left: -10px;
+top: 0;
+background: none; 
+}
+
+
+.mainframeboxseven {
+
+width: 370px;
+height: auto;
+display: block;
+position: relative;
+left: -10px;
+top: 0;
+background: none; 
+}
+
+
+.mainframeboxeight {
+
+width: 370px;
+height: auto;
+display: block;
+position: relative;
+left: -10px;
+top: 0;
+background: none; 
+}
+
+
+
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p  {
+font-family:"Soho Gothic W01 Medium";
+font-size: 1.1em;
+position: relative;
+top: 00px;
+left: 0px;
+color: #000;
+width: 275px;
+text-align: left;
+padding: 15px;
+
+}
+
+
+.heroframe {
+display: block;
+position: relative;
+left: 0;
+top: 00px;
+float: left;
+width: 370px;
+height: 140px;
+margin-bottom: 20px;
+}
+
+.framedesc {
+display: block;
+position: relative;
+left: 180px;
+top: -15px;
+width: 150px;
+height: 50px;
+float: left;
+}
+
+.framedesc p {
+font-family:"Soho Gothic W01 Light";
+font-size: 0.8em;
+}
+
+.colourshades {
+
+height: 81px
+width: 230px;
+float: left;
+position: relative;
+left: 0px;
+top: -50px;
+margin-bottom: 15px;
+
+}
+
+.colourshadesblue {
+
+height: 81px
+width: 230px;
+float: left;
+position: relative;
+left: 0px;
+margin-bottom: 15px;
+}
+
+
+
+.bottomframebox {
+
+display: block;
+width: 360px;
+height: auto;
+display: block;
+position: relative;
+top: 0;
+
+}
+
+
+.collette,.alex,.cheapmonday,.alex-second {
+width: 360px;
+margin-bottom: 20px;
+margin-left: -10px;
+}
+
+
+#metallicvideo, #testvideo, #collettevideo, #collettevideoblack, #kelliehushvideo {
+position: relative;
+left: 0px;
+display: none;
+z-index: 5;
+width: 375px;
+height: 130px;
+}
+
+
+
+#testvideo li, #metallicvideo li, #collettevideo li, #collettevideoblack li, #kelliehushvideo li {
+
+position: relative;
+top: 220px;
+left: -125px;
+list-style-type: none;
+font-size: 1.2em;
+z-index: 100;
+}
+
+}
+
+
+/* Large Screen devices (desktops, 1600px and up) */
+@media (min-width: 1601px)  {
+
+
+#main, #page, #container {
+background: none;
+}
+
+.mobilebanner {
+display: none;
+}
+
+.herobanner {
+width: 1900px;
+margin-top: 0;
+position: relative;
+left: -34.95%;
+height: 620px;
+background-image: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/animal-prints-banner.jpg");
+}
+
+
+.herobanner img {
+ 
+ 
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.herobanner img#firstbanner:hover {
+  opacity:0;
+}
+
+
+
+.textcontainer {
+display: block;
+width: 575px;
+height: 375px;
+position: relative;
+z-index: 5;
+left: 19%;
+top: -550px;
+}
+
+
+
+
+.cltext {
+position: relative;
+width: 57%;
+left: 21%;
+height: auto;
+margin-bottom: 25px;
+margin-top: 15px;
+padding-bottom: 15px;
+color: #fff;
+}
+
+
+
+.glassestext {
+height: auto;
+width: 1910px;
+margin-top: 0;
+margin-left: -33.7%;
+background: #000;
+position: relative;
+}
+
+
+.heading {
+font-family:"Soho Gothic W01 Bold";
+font-weight:normal;
+font-size: 4.2em;
+color: #fff;
+position: relative;
+top: 0px;
+left: 0px;
+text-transform: uppercase;
+letter-spacing: -1px;
+text-shadow: 2px 2px 2px #484747;
+}
+
+.subheading {
+
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 2.1em;
+font-weight: 400;
+position: relative;
+top: -20px;
+left: 0px;
+background: none; 
+text-shadow: 2px 2px 2px #484747;
+}
+
+.headline {
+font-family:"Soho Gothic W01 Medium";
+font-weight:normal;
+font-size: 2.1em;
+color: #fff;
+position: relative;
+top: 0px;
+left: 0px;
+text-transform: uppercase;
+width: 480px;
+text-shadow: 1px 1px 1px #484747;
+
+}
+
+
+
+#hashtag {
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.8em;
+font-weight: 400;
+position: relative;
+top: 10px;
+left: 0px;
+
+}
+
+.introtext {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.5em;
+text-align: center;
+}
+
+p {
+width: 100%;
+font-size: 1.3em;
+text-align: center;
+font-family:'Source Sans Pro';
+font-weight:normal;
+}
+
+
+.left-image {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/animal-prints-model-long.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-third {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/_blue-hues-bg-updated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+
+.left-image-second {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/alex-perry.jpg");
+height: 910px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-fourth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-bg.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+.left-image-fifth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-chic-bg-fade-light.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-sixth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/clasic-black-collette-bg-saturated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-seventh {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/winter-khaki-bg-long.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+.left-image-eightth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-hero.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-ninth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/kellie-hush-bg-updated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+
+
+
+
+.trendtextbox {
+position: relative;
+width: 450px;
+height: auto;
+left: 30px;
+top: 0px;
+}
+
+.trendheading {
+font-family:"Soho Gothic W01 Medium";
+font-size: 2.7em;
+color: #fff;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.trendsubheading {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.5em;
+position: relative;
+top: 0px;
+left: 0;
+}
+
+
+.imageframed {
+display: block;
+position: relative;
+top: 45px;
+left: -85px;
+-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+    z-index: 3;
+    float: left;
+    width: 252px;
+    height: 362px;
+}
+
+
+#videoframe, #videoframesecond, #videoframethird, #videoframefourth, #videoframefifth {
+display: block;
+position: relative;
+top: 250px;
+left: 50px;
+float: left;
+height: 350px;
+width: 237px; 
+}
+
+
+.frametextbox {
+width: 240px;
+height: 90px;
+background: #000;
+position: relative;
+top: 680px;
+left: 300px;
+color: #fff;
+font-size: 1em;
+}
+
+
+
+.frametextbox p {
+position: absolute;
+color: #fff;
+font-size: 1em;
+font-family:'Source Sans Pro';
+padding: 10px 0px 0px 0px;
+display: block;
+}
+
+
+
+
+
+.mainframebox {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/her-frame-background.jpg");
+margin-bottom: 30px;
+
+}
+
+
+
+.mainframeboxtwo {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/metallic-bg.jpg");
+
+}
+
+.mainframeboxthree {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/blue-bg-blue-shades.jpg");
+margin-bottom: 15px;
+}
+
+.mainframeboxfour {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-top-bg.jpg");
+margin-bottom: 30px;
+
+}
+
+
+.mainframeboxfive {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-hues-top-bg.jpg");
+margin-bottom: 30px;
+
+}
+
+
+.mainframeboxsix {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/balck-bg-arrow.jpg");
+margin-bottom: 30px;
+
+}
+
+.mainframeboxseven {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/khaki-top-bg.jpg");
+margin-bottom: 30px;
+
+}
+
+
+.mainframeboxeight {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-bg.jpg");
+margin-bottom: 30px;
+
+}
+
+
+
+
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p,  .mainframeboxeight p  {
+font-family:"Soho Gothic W01 Regular";
+position: relative;
+top: 00px;
+left: 0;
+color: #000;
+width: 300px;
+text-align: left;
+padding: 15px;
+font-size: 1.2em;
+}
+
+
+.heroframe {
+display: block;
+position: relative;
+left: 0;
+float: left;
+margin-top: 35px;
+}
+
+.framedesc {
+display: block;
+position: relative;
+left: 0;
+top: -45px;
+width: 150px;
+height: 50px;
+float: left;
+}
+
+.framedesc p {
+font-family:"Soho Gothic W01 Light";
+font-size: 0.95em;
+}
+
+.colourshades {
+display: block;
+height: 70px
+width: 195px;
+position: relative;
+left: 290px;
+top: -75px;
+bottom: 20px;
+
+}
+
+
+
+
+.bottomframebox {
+
+display: block;
+width: 575px;
+height: auto;
+display: block;
+position: relative;
+left: 0;
+top: 70px;
+
+}
+
+#testvideo, #metallicvideo, #collettevideo, #collettevideoblack {
+position: relative;
+top: -360px;
+left: 120px;
+display: none;
+z-index: 5;
+width: 960px;
+height: 549px;
+}
+
+
+#kelliehushvideo {
+position: relative;
+top: -475px;
+left: 120px;
+display: none;
+z-index: 5;
+width: 960px;
+height: 549px;
+
+}
+
+
+
+#testvideo li, #metallicvideo li, #collettevideo li, #collettevideoblack li, #kelliehushvideo li {
+position: relative;
+top: 390px;
+left: -220px;
+list-style-type: none;
+}
+
+
+
+
+.glassestext ul {
+width: 125%;
+height: 75px;
+margin-left: -100px;
+}
+
+.glassestext li {
+position: relative;
+width: 175px;
+height: 55px;
+color: #fff;
+outline: 1px solid #fff;
+float: left;
+margin-right: 15px;
+list-style-type: none;
+text-align: center;
+padding-top: 14px;
+}
+
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+#main, #page, #container {
+background: none;
+}
+
+.herobanner {
+width: 1424px;
+margin-top: 0;
+position: relative;
+left: -14.25%;
+height: 465px;
+background-image: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/animal-prints-model_0.jpg");
+margin-bottom: 20px;
+}
+
+
+.herobanner img {
+ 
+ 
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.herobanner img#firstbanner:hover {
+  opacity:0;
+}
+
+
+
+.mobilebanner {
+display: none;
+}
+
+.textcontainer {
+display: block;
+width: 575px;
+height: 350px;
+position: relative;
+z-index: 5;
+left: 10%;
+top: -420px;
+}
+
+.heading {
+font-family:"Soho Gothic W01 Bold";
+font-weight:normal;
+font-size: 4.2em;
+color: #fff;
+position: relative;
+top: 0px;
+left: 0px;
+text-transform: uppercase;
+letter-spacing: -1px;
+text-shadow: 2px 2px 2px #484747;
+}
+
+.subheading {
+
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 2em;
+font-weight: 400;
+position: relative;
+top: -20px;
+left: 0px;
+background: none;
+text-shadow: 2px 2px 2px #484747; 
+}
+
+.headline {
+font-family:"Soho Gothic W01 Medium";
+font-weight:normal;
+font-size: 2.1em;
+color: #fff;
+position: relative;
+top: 0px;
+left: 0px;
+text-transform: uppercase;
+width: 480px;
+text-shadow: 1px 1px 1px #484747;
+
+}
+
+
+#hashtag {
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.8em;
+font-weight: 400;
+position: relative;
+top: 10px;
+left: 0px;
+
+}
+
+.glassestext {
+text-align:center;
+height: auto;
+width: 1424px;
+margin-top: 0;
+margin-left: -12.9%;
+background: #000;
+position: relative;
+}
+
+p {
+width: 100%;
+font-size: 1.3em;
+text-align: center;
+font-family:'Source Sans Pro';
+font-weight:normal;
+}
+
+
+.introtext {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.5em;
+text-align: center;
+}
+
+.cltext {
+position: relative;
+width: 57%;
+left: 21%;
+height: auto;
+margin-bottom: 25px;
+margin-top: 15px;
+padding-bottom: 15px;
+color: #fff;
+}
+
+
+.left-image {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/animal-prints-model-long.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+
+.left-image-second {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/alex-perry.jpg");
+height: 910px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+.left-image-third {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/_blue-hues-bg-updated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-fourth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-bg.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-fifth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-chic-bg-fade.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-sixth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/clasic-black-collette-bg-saturated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+.left-image-seventh {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/winter-khaki-bg-long.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+.left-image-eightth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-hero.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+.left-image-ninth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/kellie-hush-bg-updated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+}
+
+
+
+
+
+
+
+.trendtextbox {
+position: relative;
+width: 450px;
+height: auto;
+left: 30px;
+top: 0px;
+}
+
+.trendheading {
+font-family:"Soho Gothic W01 Medium";
+font-size: 2.7em;
+color: #fff;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.trendsubheading {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.5em;
+position: relative;
+top: 0px;
+left: 0;
+}
+
+
+.imageframed {
+display: block;
+position: relative;
+top: 45px;
+left: -55px;
+-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+    z-index: 3;
+    float: left;
+    width: 252px;
+    height: 362px;
+}
+
+
+#videoframe, #videoframesecond, #videoframethird, #videoframefourth, #videoframefifth {
+display: block;
+position: relative;
+top: 280px;
+left: 50px;
+float: left;
+height: 350px;
+width: 237px; 
+}
+
+
+.frametextbox {
+width: 245px;
+height: 90px;
+background: #000;
+position: relative;
+top: 635px;
+left: 285px;
+color: #fff;
+font-size: 1em;
+}
+
+
+
+.frametextbox p {
+position: absolute;
+color: #fff;
+font-size: 1em;
+font-family:'Source Sans Pro';
+text-align: center;
+top: 10px;
+}
+
+
+.mainframebox {
+width: 570px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+bottom: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/her-frame-background.jpg");
+
+}
+
+
+.mainframeboxtwo {
+
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/metallic-bg.jpg");
+
+}
+
+.mainframeboxthree {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/blue-bg-blue-shades.jpg");
+
+}
+
+.mainframeboxfour {
+width: 570px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+bottom: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-top-bg.jpg");
+
+}
+
+
+.mainframeboxfive {
+width: 570px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+margin-bottom: 50px;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-hues-top-bg.jpg");
+
+}
+
+.mainframeboxsix {
+width: 570px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+margin-top: 15px;
+margin-bottom: 35px;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/black-bg-top-frame.jpg");
+
+}
+
+.mainframeboxseven {
+width: 570px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+margin-top: 15px;
+margin-bottom: 35px;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/khaki-top-bg.jpg");
+
+}
+
+
+.mainframeboxeight {
+width: 570px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+margin-top: 15px;
+margin-bottom: 35px;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-bg.jpg");
+
+}
+
+
+
+
+
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, 
+.mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p {
+font-family:"Soho Gothic W01 Regular";
+font-size: 1.2em;
+position: relative;
+top: 00px;
+left: 0;
+color: #000;
+width: 270px;
+text-align: left;
+padding: 15px;
+}
+
+
+.heroframe {
+display: block;
+position: relative;
+left: 0;
+margin-top: 25px;
+float: left;
+}
+
+.framedesc {
+display: block;
+position: relative;
+left: 0;
+top: -45px;
+width: 150px;
+height: 50px;
+float: left;
+}
+
+.framedesc p {
+font-family:"Soho Gothic W01 Light";
+font-size: 0.9em;
+}
+
+.colourshades {
+display: block;
+height: 81px
+width: 230px;
+float: left;
+position: relative;
+left: 290px;
+top: -60px;
+
+}
+
+.bottomframebox {
+
+display: block;
+width: 575px;
+height: auto;
+display: block;
+position: relative;
+left: 0;
+top: 75px;
+}
+
+
+#testvideo, #metallicvideo, #collettevideo, #collettevideoblack, #kelliehushvideo {
+position: relative;
+top: -360px;
+left: 120px;
+display: none;
+z-index: 5;
+width: 960px;
+height: 549px;
+}
+
+#testvideo li, #metallicvideo li, #collettevideo li, #collettevideoblack li, #kelliehushvideo li {
+
+position: relative;
+top: 390px;
+left: -220px;
+list-style-type: none;
+}
+
+
+.glassestext ul {
+width: 175%;
+height: 75px;
+margin-left: -240px;
+}
+
+.glassestext li {
+position: relative;
+width: 175px;
+height: 55px;
+color: #fff;
+outline: 1px solid #fff;
+float: left;
+margin-right: 15px;
+list-style-type: none;
+text-align: center;
+padding-top: 14px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+
+
+#main, #page, #container {
+background: none;
+}
+
+
+
+.herobanner {
+
+display: block;
+width: 1170px;
+height: 382px;
+position: relative;
+left: -14%;
+margin-top: 0;
+margin-bottom: 15px;
+}
+
+p {
+width: 100%;
+font-size: 1.2em;
+text-align: center;
+font-family:'Source Sans Pro';
+font-weight:normal;
+}
+
+
+.mobilebanner {
+display: none;
+}
+
+.glassestext {
+height: auto;
+width: 1190px;
+margin-top: 0;
+margin-left: -12.75%;
+background: #000;
+position: relative;
+text-align: center;
+}
+
+
+.cltext {
+position: relative;
+width: 57%;
+left: 21%;
+height: auto;
+margin-bottom: 25px;
+margin-top: 15px;
+padding-bottom: 15px;
+color: #fff;
+}
+
+.textcontainer {
+display: block;
+width: 400px;
+height: 320px;
+position: relative;
+z-index: 5;
+left: 12%;
+top: -350px;
+}
+
+.heading {
+font-family:"Soho Gothic W01 Bold";
+font-weight:normal;
+font-size: 3.1em;
+color: #fff;
+position: relative;
+top: 0px;
+left: 0px;
+text-transform: uppercase;
+letter-spacing: -1px;
+text-shadow: 2px 2px 2px #484747;
+}
+
+.subheading {
+
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 2em;
+font-weight: 400;
+position: relative;
+top: -5px;
+left: 0px;
+background: none;
+text-shadow: 2px 2px 2px #484747; 
+}
+
+.headline {
+font-family:"Soho Gothic W01 Medium";
+font-weight:normal;
+font-size: 1.8em;
+color: #fff;
+position: relative;
+top: -20px;
+left: 0px;
+text-transform: uppercase;
+width: 350px;
+text-shadow: 1px 1px 1px #484747;
+
+}
+
+
+#hashtag {
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.8em;
+font-weight: 400;
+position: relative;
+top: 10px;
+left: 0px;
+
+}
+
+
+.introtext {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.5em;
+text-align: center;
+}
+
+
+.left-image {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/animal-prints-model-long.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+
+}
+
+
+.left-image-second {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/alex-perry.jpg");
+margin-bottom: 20px;
+background-size: 480px 780px;
+float: left;
+height: auto;
+width: 480px;
+height: 780px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 780px;
+-moz-background-size: 480px 780px;
+-webkit-background-size: 480px 780px;
+}
+
+
+.left-image-third {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/_blue-hues-bg-updated.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+
+}
+
+.left-image-fourth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-bg.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+
+}
+
+
+.left-image-fifth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-chic-bg-fade.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+
+}
+
+
+.left-image-sixth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/clasic-black-collette-bg-saturated.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+
+}
+
+.left-image-seventh {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/winter-khaki-bg-long.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+
+}
+
+
+.left-image-eightth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-hero.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+
+}
+
+
+.left-image-ninth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/kellie-hush-bg-updated.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.trendtextbox {
+position: relative;
+width: 450px;
+height: auto;
+left: 20px;
+top: 0px;
+
+}
+
+.trendheading {
+font-family:"Soho Gothic W01 Medium";
+font-size: 2.7em;
+color: #fff;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.trendsubheading {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.5em;
+position: relative;
+top: 0px;
+left: 0;
+}
+
+
+.imageframed {
+display: block;
+position: relative;
+top: 0px;
+left: -45px;
+width: 220px;
+height: 316px;
+-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+    z-index: 3;
+    float: left;
+}
+
+
+#videoframe, #videoframesecond, #videoframethird, #videoframefourth, #videoframefifth {
+display: block;
+position: relative;
+top: 140px;
+left: 30px;
+float: left;
+width: 230px;
+height: 339px;
+}
+
+
+.frametextbox {
+width: 220px;
+height: 90px;
+background: #000;
+position: relative;
+top: 530px;
+left: 200px;
+color: #fff;
+font-size: 1em;
+}
+
+
+
+.frametextbox p {
+position: absolute;
+color: #fff;
+font-size: 1em;
+font-family:'Source Sans Pro';
+top: 10px;
+display: block;
+text-align: center;
+}
+
+
+
+
+
+
+
+.mainframebox {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/her-frame-background.jpg");
+
+}
+
+
+.mainframeboxtwo {
+width: 480px;
+height: 295px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/metallic-bg.jpg");
+
+}
+
+
+.mainframeboxthree {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/blue-bg-blue-shades.jpg");
+
+background-size: 480px 320px;
+-ms-background-size: 480px 320px;
+-moz-background-size: 480px 320px;
+-webkit-background-size: 480px 320px;
+}
+
+
+.mainframeboxfour {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-top-bg.jpg");
+
+}
+
+
+.mainframeboxfive {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-mainframe-bg.jpg");
+
+}
+
+.mainframeboxsix {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/black-bg-top-frame.jpg");
+
+}
+
+
+.mainframeboxseven {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/khaki-top-bg.jpg");
+
+}
+
+
+.mainframeboxeight {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-bg.jpg");
+
+}
+
+
+
+
+
+
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p {
+font-family: 'Homemade Apple', cursive;
+font-size: 1.2em;
+position: relative;
+top: 00px;
+left: 0;
+color: #000;
+width: 325px;
+text-align: left;
+padding: 15px;
+
+}
+
+
+.heroframe {
+display: block;
+position: relative;
+left: 0;
+top: 10px;
+float: left;
+height: 181px;
+width: 480px;
+
+}
+
+.framedesc {
+display: block;
+position: relative;
+left: 0;
+top: -10px;
+width: 150px;
+height: 50px;
+float: left;
+}
+
+.framedesc p {
+font-family:"Soho Gothic W01 Light";
+font-size: 0.8em;
+}
+
+.colourshades {
+display: block;
+height: 63px
+width: 175px;
+float: left;
+position: relative;
+left: 80px;
+top: -20px;
+padding-top: 10px;
+padding-bottom: 10px; 
+}
+
+
+.colourshadesblue {
+display: block;
+height: 63px
+width: 175px;
+float: left;
+position: relative;
+left: 80px;
+top: 10px;
+}
+
+
+
+
+
+.bottomframebox {
+
+display: block;
+width: 480px;
+height: auto;
+display: block;
+position: relative;
+left: 0;
+top: 50px;
+margin-bottom: 30px;
+}
+
+
+.collette,.alex,.cheapmonday,.alex-second {
+width: 480px;
+}
+
+
+#testvideo, #metallicvideo, #collettevideo, #collettevideoblack, #kelliehushvideo {
+position: relative;
+top: -320px;
+left: 120px;
+display: none;
+z-index: 5;
+width: 750px;
+height: 349px;
+}
+
+#testvideo li, #metallicvideo li, #collettevideo li, #collettevideoblack li, #kelliehushvideo li {
+position: relative;
+top: 350px;
+left: -200px;
+list-style-type: none;
+}
+
+.glassestext ul {
+width: 108%;
+height: 75px;
+margin-left: 30px;
+}
+
+.glassestext li {
+position: relative;
+width: 175px;
+height: 55px;
+color: #fff;
+outline: 1px solid #fff;
+float: left;
+margin-right: 15px;
+list-style-type: none;
+text-align: center;
+padding-top: 14px;
+margin-bottom: 15px;
+}
+
+
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+#main, #page, #container {
+background: none;
+}
+
+
+.herobanner {
+
+display: block;
+width: 990px;
+height: 323px;
+position: relative;
+left: -20%;
+margin-top: 0;
+margin-bottom: 15px;
+}
+
+.mobilebanner {
+display: none;
+}
+
+
+
+.glassestext {
+text-align:center;
+height: auto;
+width: 990px;
+background: #000;
+margin-left: -18%;
+}
+
+
+.cltext {
+position: relative;
+width: 57%;
+left: 22%;
+height: auto;
+margin-bottom: 25px;
+margin-top: 15px;
+padding-bottom: 15px;
+color: #fff;
+}
+
+
+.textcontainer {
+display: block;
+width: 350px;
+height: 300px;
+position: relative;
+z-index: 5;
+left: 16%;
+top: -330px;
+}
+
+.heading {
+font-family:"Soho Gothic W01 Bold";
+font-weight:normal;
+font-size: 2.4em;
+color: #fff;
+position: relative;
+top: 20px;
+left: 0px;
+text-transform: uppercase;
+letter-spacing: -1px;
+text-shadow: 2px 2px 2px #484747;
+}
+
+.subheading {
+
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.4em;
+font-weight: 400;
+position: relative;
+top: 15px;
+left: 0px;
+background: none;
+text-shadow: 2px 2px 2px #484747; 
+}
+
+.headline {
+font-family:"Soho Gothic W01 Medium";
+font-weight:normal;
+font-size: 1.5em;
+color: #fff;
+position: relative;
+top: -20px;
+left: 0px;
+text-transform: uppercase;
+width: 275px;
+text-shadow: 1px 1px 1px #484747;
+
+}
+
+
+#hashtag {
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.4em;
+font-weight: 400;
+position: relative;
+top: -10px;
+left: 0px;
+
+}
+
+.introtext {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.3em;
+text-align: center;
+}
+
+
+.left-image {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/animal-prints-model-long.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+
+.left-image-second {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/alex-perry.jpg");
+height: 910px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+
+.left-image-third {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/_blue-hues-bg-updated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+.left-image-fourth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-bg.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+.left-image-fifth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-chic-bg-fade.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+.left-image-sixth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/clasic-black-collette-bg-saturated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+
+.left-image-seventh {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/winter-khaki-bg-long.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+
+.left-image-eightth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-hero.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+
+.left-image-ninth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/kellie-hush-bg-updated.jpg");
+height: 1000px;
+width: 560px;
+margin-bottom: 20px;
+float: left;
+margin-left: 80px;
+}
+
+
+
+
+
+
+.trendtextbox {
+position: relative;
+width: 450px;
+height: auto;
+left: 55px;
+top: 0px;
+}
+
+.trendheading {
+font-family:"Soho Gothic W01 Medium";
+font-size: 2.7em;
+color: #fff;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.trendsubheading {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.5em;
+position: relative;
+top: 0px;
+left: 0;
+}
+
+
+.imageframed {
+display: block;
+position: relative;
+top: 25px;
+left: -85px;
+-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+    z-index: 3;
+    float: left;
+      width: 252px;
+    height: 362px;
+}
+
+
+#videoframe, #videoframesecond, #videoframethird, #videoframefourth, #videoframefifth {
+display: block;
+position: relative;
+top: 275px;
+left: 80px;
+float: left;
+width: 237px;
+height: 350px;
+}
+
+
+.frametextbox {
+width: 220px;
+height: 90px;
+background: #000;
+position: relative;
+top: 635px;
+left: 285px;
+color: #fff;
+font-size: 1em;
+}
+
+
+
+.frametextbox p {
+position: absolute;
+color: #fff;
+font-size: 1em;
+font-family:'Source Sans Pro';
+text-align: center;
+top: 10px;
+left: 10px;
+}
+
+
+.mainframebox {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/her-frame-background.jpg");
+margin-left: 80px;
+
+}
+
+
+.mainframeboxtwo {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/metallic-bg.jpg");
+margin-left: 80px;
+
+}
+
+
+.mainframeboxthree {
+width: 570px;
+height: auto;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/blue-bg-blue-shades.jpg");
+margin-left: 80px;
+
+}
+
+.mainframeboxfour {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-top-bg.jpg");
+margin-left: 80px;
+
+}
+
+.mainframeboxfive {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-hues-top-bg.jpg");
+margin-left: 80px;
+
+}
+
+
+.mainframeboxsix {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/black-bg-top-frame.jpg");
+margin-left: 80px;
+
+}
+
+
+.mainframeboxseven {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/khaki-top-bg.jpg");
+margin-left: 80px;
+
+}
+
+
+.mainframeboxeight {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-bg.jpg");
+margin-left: 80px;
+
+}
+
+
+
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxsix p, .mainframeboxfive p, .mainframeboxseven p, .mainframeboxeight p  {
+font-family: 'Homemade Apple', cursive;
+font-size: 1.4em;
+position: relative;
+top: 00px;
+left: 0;
+color: #000;
+width: 325px;
+text-align: left;
+padding: 15px;
+
+}
+
+
+.heroframe {
+display: block;
+position: relative;
+left: 0;
+top: -20px;
+float: left;
+}
+
+.framedesc {
+display: block;
+position: relative;
+left: 0;
+top: -30px;
+width: 150px;
+height: 50px;
+float: left;
+}
+
+.framedesc p {
+font-family:"Soho Gothic W01 Light";
+font-size: 1em;
+}
+
+.colourshades {
+display: block;
+height: 81px
+width: 230px;
+float: left;
+position: relative;
+left: 150px;
+top: -20px;
+}
+
+
+.colourshadesblue {
+display: block;
+height: 81px
+width: 230px;
+float: left;
+position: relative;
+left: 150px;
+top: 10px;
+}
+
+
+.bottomframebox {
+
+display: block;
+width: 575px;
+height: auto;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+margin-left: 80px;
+top: 30px;
+}
+
+#testvideo, #metallicvideo, #collettevideo, #collettevideoblack, #kelliehushvideo {
+position: relative;
+top: -120px;
+left: 0px;
+display: none;
+z-index: 5;
+width: 550px;
+height: 200px;
+}
+
+#testvideo li, #metallicvideo li, #collettevideo li, #collettevideoblack li, #kelliehushvideo li  {
+position: relative;
+top: 375px;
+left: -220px;
+list-style-type: none;
+}
+
+
+
+
+}
+
+
+
+
+
+
+/* Very Small devices (phones landscape view, phablets) */
+@media (min-width: 481px) and (max-width: 766.99px) { 
+
+
+body {
+background: #fff;
+
+}
+
+#main, #page, #container {
+background: none;
+}
+
+
+.herobanner { 
+display: block;
+width: 765px;
+height: 250px;
+margin-top: 0;
+position: relative;
+left: -6%;
+margin-bottom: 15px;
+}
+
+.mobilebanner {
+display: none;
+}
+
+.glassestext {
+text-align:center;
+height: auto;
+width: 745px;
+background: #000;
+margin-top: 0;
+margin-left: -4%;
+}
+
+.textcontainer {
+display: block;
+width: 350px;
+height: 120px;
+position: relative;
+z-index: 5;
+left: 9%;
+top: -265px;
+}
+
+.heading {
+font-family:"Soho Gothic W01 Bold";
+font-weight:normal;
+font-size: 2em;
+color: #fff;
+position: relative;
+top: 00px;
+left: 0px;
+text-transform: uppercase;
+letter-spacing: -1px;
+text-shadow: 2px 2px 2px #484747;
+}
+
+.subheading {
+
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.5em;
+font-weight: 400;
+position: relative;
+top: -10px;
+left: 0px;
+background: none;
+text-shadow: 2px 2px 2px #484747; 
+}
+
+.headline {
+font-family:"Soho Gothic W01 Medium";
+font-weight:normal;
+font-size: 1.4em;
+color: #fff;
+position: relative;
+top: -35px;
+left: 0px;
+text-transform: uppercase;
+width: 250px;
+text-shadow: 1px 1px 1px #484747;
+
+}
+
+
+#hashtag {
+height: 70px;
+width: auto;
+color: #fff;
+font-family:"Soho Gothic W01 Light";
+font-size: 1.1em;
+font-weight: 400;
+position: relative;
+top: -25px;
+left: 0px;
+
+}
+
+
+.left-image {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/animal-prints-model-long.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+margin-left: 80px;
+}
+
+
+.left-image-second {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/alex-perry.jpg");
+margin-bottom: 20px;
+background-size: 480px 731px;
+float: left;
+height: auto;
+width: 560px;
+height: 731px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 731px;
+-moz-background-size: 480px 731px;
+-webkit-background-size: 480px 731px;
+margin-left: 80px;
+}
+
+
+.left-image-third {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/_blue-hues-bg-updated.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+margin-left: 80px;
+}
+
+.left-image-fourth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-bg.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+margin-left: 80px;
+}
+
+
+.left-image-fifth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-chic-bg-fade.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+margin-left: 80px;
+}
+
+
+.left-image-sixth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/clasic-black-collette-bg-saturated.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+margin-left: 80px;
+}
+
+
+.left-image-seventh {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/winter-khaki-bg-long.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+margin-left: 80px;
+}
+
+
+
+.left-image-eightth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-hero.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+margin-left: 80px;
+}
+
+.left-image-ninth {
+display: block;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/kellie-hush-bg-updated.jpg");
+margin-bottom: 20px;
+background-size: 480px 857px;
+float: left;
+height: auto;
+width: 480px;
+height: 857px;
+background-repeat: no-repeat;
+-ms-background-size: 480px 857px;
+-moz-background-size: 480px 857px;
+-webkit-background-size: 480px 857px;
+margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.trendtextbox {
+position: relative;
+width: 450px;
+height: auto;
+left: 20px;
+top: 0px;
+}
+
+.trendheading {
+font-family:"Soho Gothic W01 Medium";
+font-size: 2.7em;
+color: #fff;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.trendsubheading {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.5em;
+position: relative;
+top: 0px;
+left: 0;
+}
+
+
+.imageframed {
+display: block;
+position: relative;
+top: 0px;
+left: -45px;
+width: 220px;
+height: 316px;
+-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+    z-index: 3;
+    float: left;
+}
+
+
+#videoframe, #videoframesecond, #videoframethird, #videoframefourth, #videoframefifth {
+display: block;
+position: relative;
+top: 130px;
+left: 20px;
+float: left;
+width: 230px;
+height: 339px;
+}
+
+
+.frametextbox {
+width: 220px;
+height: 90px;
+background: #000;
+position: relative;
+top: 530px;
+left: 220px;
+color: #fff;
+font-size: 1em;
+}
+
+
+
+.frametextbox p {
+position: absolute;
+color: #fff;
+font-size: 1em;
+font-family:'Source Sans Pro';
+text-align: center;
+top: 10px;
+display: block;
+left: 15px;
+}
+
+
+
+.introtext {
+font-family:"Soho Gothic W01 Light";
+color: #fff;
+font-size: 1.2em;
+text-align: center;
+}
+
+
+.cltext {
+position: relative;
+width: 60%;
+left: 16%;
+height: auto;
+margin-bottom: 25px;
+margin-top: 15px;
+padding-bottom: 15px;
+color: #fff;
+}
+
+
+.mainframebox {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/her-frame-background.jpg");
+margin-left: 80px
+}
+
+
+
+.mainframeboxtwo {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/metallic-bg.jpg");
+margin-left: 80px
+}
+
+.mainframebox {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/her-frame-background.jpg");
+margin-left: 80px
+}
+
+
+.mainframeboxfour {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/grey-matters-top-bg.jpg");
+margin-left: 80px
+}
+
+.mainframeboxfive {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/retro-hues-top-bg.jpg");
+margin-left: 80px
+}
+
+
+
+.mainframeboxsix {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/_classic-black-frame-bg.jpg");
+margin-left: 80px
+}
+
+.mainframeboxseven {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/khaki-top-bg.jpg");
+margin-left: 80px
+}
+
+
+.mainframeboxeight {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/embellishment-bg.jpg");
+margin-left: 80px
+}
+
+
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p  {
+font-family: 'Homemade Apple', cursive;
+font-size: 1.2em;
+position: relative;
+top: 00px;
+left: 0;
+color: #000;
+width: 325px;
+text-align: left;
+padding: 15px;
+
+}
+
+
+.heroframe {
+display: block;
+position: relative;
+left: 0;
+top: 10px;
+float: left;
+height: 181px;
+width: 480px;
+margin-bottom: 20px;
+
+}
+
+.framedesc {
+display: block;
+position: relative;
+left: 0;
+top: -10px;
+width: 150px;
+height: 50px;
+float: left;
+}
+
+.framedesc p {
+font-family:"Soho Gothic W01 Light";
+font-size: 0.8em;
+}
+
+.colourshades {
+display: block;
+height: 63px
+width: 175px;
+float: left;
+position: relative;
+left: 80px;
+top: 10px;
+margin-bottom: 20px;
+}
+
+
+.colourshadesblue {
+display: block;
+height: 63px
+width: 175px;
+float: left;
+position: relative;
+left: 80px;
+top: 10px;
+margin-bottom: 20px;
+}
+
+
+.bottomframebox {
+
+display: block;
+width: 480px;
+height: auto;
+display: block;
+position: relative;`
+left: 0;
+top: 30px;
+margin-left: 80px;
+}
+
+
+.collette,.alex,.cheapmonday,.alex-second {
+width: 480px;
+}
+
+#testvideo, #metallicvideo, #collettevideo, #collettevideoblack, #kelliehushvideo {
+position: relative;
+top: -120px;      
+left: 30px;
+display: none;
+z-index: 5;
+width: 450px;
+height: 175px;
+}
+
+#testvideo li, #metallicvideo li, #collettevideo li, #collettevideoblack li, #kelliehushvideo li {
+
+position: relative;
+top: 335px;
+left: -195px;
+list-style-type: none;
+
+}
+
+
+
+}
+
+
+
+
+
