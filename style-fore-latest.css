@@ -1001,11 +1001,23 @@ margin-bottom: 30px;
 
 }
 
+.mainframeboxnine {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/crystal-water-bg.jpg");
+margin-bottom: 30px;
+
+}
 
 
 
 
-.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p,  .mainframeboxeight p  {
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p,  .mainframeboxeight p, .mainframeboxnine p  {
 font-family:"Soho Gothic W01 Regular";
 position: relative;
 top: 00px;
@@ -1527,13 +1539,25 @@ background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5
 
 }
 
+.mainframeboxnine {
+width: 570px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+margin-top: 15px;
+margin-bottom: 35px;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/crystal-water-bg.jpg");
+
+}
+
 
 
 
 
 
 .mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, 
-.mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p {
+.mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p, .mainframeboxnine p {
 font-family:"Soho Gothic W01 Regular";
 font-size: 1.2em;
 position: relative;
@@ -2114,13 +2138,25 @@ background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5
 
 }
 
+.mainframeboxnine {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/crystal-water-bg.jpg");
+}
 
 
 
 
 
 
-.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p {
+
+
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p, .mainframeboxnine p {
 font-family: 'Homemade Apple', cursive;
 font-size: 1.2em;
 position: relative;
@@ -2645,10 +2681,22 @@ margin-left: 80px;
 
 }
 
+.mainframeboxnine {
+width: 570px;
+height: 350px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/crystal-water-bg.jpg");
+margin-left: 80px;
+
+}
 
 
 
-.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxsix p, .mainframeboxfive p, .mainframeboxseven p, .mainframeboxeight p  {
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxsix p, .mainframeboxfive p, .mainframeboxseven p, .mainframeboxeight p, .mainframeboxnine p  {
 font-family: 'Homemade Apple', cursive;
 font-size: 1.4em;
 position: relative;
@@ -3206,9 +3254,21 @@ background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5
 margin-left: 80px
 }
 
+.mainframeboxnine {
+width: 480px;
+height: 320px;
+display: block;
+position: relative;
+left: 0;
+top: 0;
+background: url("https://d1h3612lyp6ucx.cloudfront.net/sites/default/files/html5_assets/crystal-water-bg.jpg");
+margin-left: 80px
+}
 
 
-.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p  {
+
+
+.mainframebox p, .mainframeboxtwo p, .mainframeboxthree p, .mainframeboxfour p, .mainframeboxfive p, .mainframeboxsix p, .mainframeboxseven p, .mainframeboxeight p, .mainframeboxnine p  {
 font-family: 'Homemade Apple', cursive;
 font-size: 1.2em;
 position: relative;
@@ -3284,6 +3344,8 @@ left: 0;
 top: 30px;
 margin-left: 80px;
 }
+
+.test
 
 
 .collette,.alex,.cheapmonday,.alex-second {
